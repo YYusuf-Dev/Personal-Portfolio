@@ -31,12 +31,12 @@ export default function Hero({}: Props) {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#f7abba" />
         </h1>
-        <div className="pt-5 ">
+        <div className="pt-5 p-5">
           <Link href="#about">
-            <button className="heroButton">About </button>
+            <button className="heroButton">About</button>
           </Link>
-          <Link href="#experience">
-            <button className="heroButton">Experience</button>
+          <Link href="#experiance">
+            <button className="heroButton">Experiance</button>
           </Link>
           <Link href="#skills">
             <button className="heroButton">Skills</button>
