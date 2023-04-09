@@ -1,6 +1,5 @@
 import { groq } from "next-sanity";
 import type { NextApiRequest, NextApiResponse } from "next";
-import sanityCli from "@sanity/cli";
 import { sanityClient } from "../../sanity";
 import { Social } from "../../typing";
 
