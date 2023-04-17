@@ -10,14 +10,14 @@ type Props = {
 function Projects({ projects }: Props) {
   return (
     <motion.div className="h-screen relative flex overflow-hidden flex-col text-left md-flex-row max-w-full justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
-      <h4 className="absolute top-36 uppercase tracking-[3px] text-gray-600 text-sm">
+      <h4 className="absolute top-24 p-3 uppercase tracking-[3px] text-gray-600 text-sm">
         scroll to the right for more projects{" "}
       </h4>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory p-10 z-20">
         {projects?.map((project, i) => (
           <div
             key={project._id}

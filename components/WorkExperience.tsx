@@ -9,9 +9,9 @@ type Props = {
 
 function WorkExperience({ experience }: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[500px] xl:w-[500px] snap-center bg-[#69a6d1] p-4 mt-40 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden mb-20">
+    <article className="flex flex-col rounded items-center space-y-7 flex-shrink-0 w-[400px] h-[500px] md:w-[500px] xl:w-[450px] snap-center bg-[#69a6d1] p-4  hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden mt-20">
       <motion.img
-        className="w-20 h-20 rounded-full xl:w-[60px] xl:h-[60px] object-cover"
+        className="w-40 h-20 xl:w-[1000px] xl:h-[80px]  object-cover"
         src={urlFor(experience?.companyImage).url()}
         alt="Work-logo"
       />
