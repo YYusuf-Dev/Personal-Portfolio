@@ -1,8 +1,8 @@
 {
   "../node_modules/@sanity/client/dist/index.browser.js -> @sanity/eventsource": {
-    "id": 3699,
+    "id": "../node_modules/@sanity/client/dist/index.browser.js -> @sanity/eventsource",
     "files": [
-      "static/chunks/699.1ab40e97150fd2fa.js"
+      "static/chunks/node_modules_sanity_eventsource_browser_js.js"
     ]
   }
 }

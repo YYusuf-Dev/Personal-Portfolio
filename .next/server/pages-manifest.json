@@ -1,13 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/api/getExperience": "pages/api/getExperience.js",
-  "/api/getPageInfo": "pages/api/getPageInfo.js",
-  "/api/getSkills": "pages/api/getSkills.js",
-  "/api/getSocials": "pages/api/getSocials.js",
-  "/api/hello": "pages/api/hello.js",
-  "/api/getProjects": "pages/api/getProjects.js",
   "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/404": "pages/404.html"
+  "/api/getPageInfo": "pages/api/getPageInfo.js",
+  "/api/getExperience": "pages/api/getExperience.js",
+  "/api/getSkills": "pages/api/getSkills.js",
+  "/api/getProjects": "pages/api/getProjects.js",
+  "/api/getSocials": "pages/api/getSocials.js"
 }
